@@ -9,10 +9,12 @@ def reverseArray(array):
     for i in range(mid):
         # create a temp var to hold value
         temp = array[i]
-        # length 3
-        # index 3 - 1 - 0 which is 2
-        array[i] = array[length - 1 - i] # assign first index of array to last item in array
-        array[length - 1 - i] = temp # assign last item in array to value stored in temp variable
+
+        # with first iteration begin by assigning the first index of array to last item in array
+        # and assign the last item in array to the first value stored in temp
+        # then continue swapping values of array at indices as you continue moving toward the mid point in array from both ends
+        array[i] = array[length - 1 - i]
+        array[length - 1 - i] = temp
 
     return array
 
