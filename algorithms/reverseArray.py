@@ -12,7 +12,7 @@ def reverseArray(array):
         # length 3
         # index 3 - 1 - 0 which is 2
         array[i] = array[length - 1 - i] # assign first index of array to last item in array
-        array[length - 1 - i] = temp
+        array[length - 1 - i] = temp # assign last item in array to value stored in temp variable
 
     return array
 
