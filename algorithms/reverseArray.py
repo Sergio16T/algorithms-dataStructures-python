@@ -1,4 +1,6 @@
 import math
+import array as arr
+
 # reverse array
 
 def reverseArray(array):
@@ -20,3 +22,6 @@ def reverseArray(array):
 
 result = reverseArray([1, 2, 3, 4, 5])
 print(result)
+
+arrayOfIntegers = arr.array('i', [1, 2, 3])
+print(reverseArray(arrayOfIntegers))
