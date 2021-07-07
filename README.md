@@ -8,8 +8,10 @@ With this respository, I am solving Algorithms in Python Version 3.8.2 with note
 - Variables/Pointers Manipulation
 - Binary Search
 - Hashmap
+- Dictionary
 - Stack
 - Array
+- List
 - Linked List
 - Sorting
 - Depth First Search
